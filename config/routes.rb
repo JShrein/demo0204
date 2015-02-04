@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'jms2' => 'static_pages#jms2'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
