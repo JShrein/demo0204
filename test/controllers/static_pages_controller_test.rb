@@ -6,4 +6,10 @@ class StaticPagesControllerTest < ActionController::TestCase
     assert_response :success
   end
 
+  test "should get jms2" do
+    get :jms2
+    
+    assert_response :success
+  end
+
 end
